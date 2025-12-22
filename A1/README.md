@@ -1,7 +1,8 @@
+# 📊 **README – ✅ 1. Employee Data Sheet – Spreadsheet Experiment**
 
-### **Experiments using spreadsheets**
+## ** Problem Statement**
 
-1. Create a data sheet of 10 employees with five columns:
+1️⃣. Create a data sheet of 10 employees with five columns:
    **Sl. No., Name, Date of Birth, Gender and Total salary.**
 
    a. Format the different column values for consistency with respect to currency and date formats.
