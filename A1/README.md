@@ -87,11 +87,11 @@ Copy downward to all rows.
 
 ## **Step 5 – Count Female employees paying Tax**
 
-Assuming Tax column = F2:F11
+Assuming Tax column = G2:G11
 Gender column = D2:D11
 
 ```excel
-=COUNTIFS(F2:F11,">0",D2:D11,"Female")
+=COUNTIFS(G2:G11,">0",D2:D11,"Female")
 ```
 
 ---
@@ -99,7 +99,7 @@ Gender column = D2:D11
 ## **Step 6 – Count Male employees exempted**
 
 ```excel
-=COUNTIFS(F2:F11,"=0",D2:D11,"Male")
+=COUNTIFS(G2:G11,"=0",D2:D11,"Male")
 ```
 
 ---
@@ -109,7 +109,7 @@ Gender column = D2:D11
 Formula:
 
 ```excel
-=E2 - F2
+=E2 - G2
 ```
 
 Copy to all rows.
