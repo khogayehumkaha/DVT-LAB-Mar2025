@@ -56,12 +56,24 @@ f. Add a column **Net Salary** which is calculated after deducting tax amount fr
 
 ---
 
+## **If Date is not updated**
+
+* Select DOB column → **Go to Data** →  **Text to Columns** 
+    
+* A window will pop up. Click on the **column header inside the preview box at the bottom**.
+* Change the **Column type** dropdown from **"Standard" to Date (DMY)**.
+* Click OK. This forces Calc to convert those "text" dates into real numerical dates.
+
+---
+
 ## **Step 3 – Add Age column**
 
 Formula for Age (DOB in column C row 2):
 
 ```excel
 =DATEDIF(C2, TODAY(), "Y")
+or 
+=YEARS(C2,TODAY(),0)
 ```
 
 Copy downward.
